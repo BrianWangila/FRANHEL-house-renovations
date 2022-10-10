@@ -8,7 +8,7 @@
 
 puts "preparing to seed data"
 
-user1 = User.create(name: "Brian Wangila", username: "Ravvy's", email: "brian@gmail.com", password: "brian", password_confirmation: "brian", phone_number: "+254701850860", location: "Karen", profile_pic: "https://images.unsplash.com/photo-1529665253569-6d01c0eaf7b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cHJvZmlsZXxlbnwwfHwwfHw%3D&w=1000&q=80")
+user1 = User.create(name: "Brian Wangila", username: "Ravvy's", email: "brian@gmail.com", password: "brian", password_confirmation: "brian", phone_number: "+254701850860", location: "Karen", profile_pic: "https://images.unsplash.com/photo-1529665253569-6d01c0eaf7b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cHJvZmlsZXxlbnwwfHwwfHw%3D&w=1000&q=80", user_type: 1)
 
 
 
